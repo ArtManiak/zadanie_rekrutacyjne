@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(91, 150, 201);
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  line-height: normal;
+  font-weight: 400;
+}
+
+.exchangeRates {
+  display: flex;
+  justify-content: center;
+}
+.exchangeRates__block table,
+.exchangeRates__block td {
+  border: 1px solid #000;
+}
+.exchangeRates__block table {
+  background-color: rgba(255, 255, 255, 0.757);
+  border-radius: 5px;
+}
+.exchangeRates__block table:nth-child(1) {
+  margin-right: 20px;
+}
+.exchangeRates__block td {
+  padding: 5px;
+}
+.exchangeRates__block--row {
+  cursor: pointer;
+}
+.exchangeRates__block--row:hover {
+  color: rgb(57, 57, 57);
+}
+.exchangeRates__block--title {
+  font-weight: 700;
+}
+.exchangeRates__block--value {
+  color: rgb(94, 20, 20);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.title__text {
+  font-weight: 900;
+  color: rgb(77, 10, 10);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.757);
+  margin-top: 20px;
+}

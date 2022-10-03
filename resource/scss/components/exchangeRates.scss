@@ -1,0 +1,41 @@
+.exchangeRates {
+    display: flex;
+    justify-content: center;
+
+    &__block {
+
+        table,
+        td {
+            border: 1px solid #000;
+        }
+
+        table {
+            background-color: rgba(255, 255, 255, 0.757);
+            border-radius: 5px;
+
+            &:nth-child(1) {
+                margin-right: 20px;
+            }
+        }
+
+        td {
+            padding: 5px;
+        }
+
+        &--row {
+            cursor: pointer;
+
+            &:hover {
+                color: rgb(57, 57, 57);
+            }
+        }
+
+        &--title {
+            font-weight: 700;
+        }
+
+        &--value {
+            color: rgb(94, 20, 20);
+        }
+    }
+}
